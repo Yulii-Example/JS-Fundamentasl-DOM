@@ -4,10 +4,10 @@
 
 function applyStyles() {
      const titleEl = document.getElementById("title");
-     titleEl.style.backgroundColor = "green";
+     titleEl.style.backgroundColor = "lightgreen";
      const list = document.getElementById("myDiv");
      const first = list.children[0];
-     first.style.fontWeight = "bold";
+     first.style.fontWeight = "700";
      const second = list.children[1];
      second.style.color = "red";
      const third = list.children[2];
