@@ -9,15 +9,11 @@
 const list = document.getElementById("list");
 
 const firstEl = list.children[0].innerText;
-console.log(firstEl);
 const lastEl = list.children[list.children.length- 1].innerText;
-console.log(lastEl);
 const secondtEl = list.children[1].innerText;
-console.log(secondtEl);
 const fourthEl = list.children[3].innerText;
-console.log(fourthEl);
 const thirdtEl = list.children[2].innerText;
-console.log(thirdtEl);
+
 module.exports = {
   firstEl,
   lastEl,
