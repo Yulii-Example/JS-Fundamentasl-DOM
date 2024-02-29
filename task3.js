@@ -17,8 +17,18 @@
 
 
 function applyStyles() {
-
+    const mainEl = document.createElement("main");
+    mainEl.className = "mainClass check item";
+    const divEl = document.createElement("div");
+    divEl.id = "myDiv";
+    const pEl = document.createElement("p");
+    pEl.innerText = "First paragraph";
+    divEl.appendChild(pEl);
+    mainEl.appendChild(divEl);
+    const container = document.querySelector(".create_elements");
+    container.appendChild(mainEl);
 }
+applyStyles();
 
 
 
